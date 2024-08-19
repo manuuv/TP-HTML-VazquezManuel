@@ -4,21 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+    table {
+        border-collapse: collapse;
+        width: 50%;   
+    }
+    th, td {
+        border: 3px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+    </style>
 </head>
 <body>
-    <h3>5. Elementos multimedia</h3>
+    <h3>6. Tablas</h3>
         <div>
-            <img src="https://indiehoy.com/wp-content/uploads/2018/05/5-Aloe-Konex-28.04.2018-Florencia-ibanez-Indie-Hoy2.jpg"
-             width="320px" height="220px" alt="Foto banda Aloe en vivo"/>
-            <!-- Acá probé insertar un video de youtube -->
-            <iframe width="420px" height="220px" src="https://www.youtube.com/embed/WYSX3IaoHfY" title="EL MANIFIESTO DE ALOE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <br>
-            <!-- Video genérico: -->
-            <video src = "https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4"
-            controls width="400px"> </video>
-            <br>
-            <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg"
-            controls> </audio>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Columna 1</th>
+                        <th>Columna 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dato 1</td>
+                        <td>Dato 2</td>
+                    </tr>
+                    <tr>
+                        <td>Dato 3</td>
+                        <td>Dato 4</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
 </body>
 </html>
